@@ -4,26 +4,30 @@ body {
 }
 
 .titulo {
+    padding-left: 7.5rem;
     font-size: 37px;
     font-display: center;
 }
 
 .opciones {
-    font-family: cabin;
+    padding-right: 7rem;
+    font-family: "cabin";
     font-size: 16px;
     font-display: center;
 }
 
 
 .hero1 {
-    padding-left: 150px;
+    background-position: center;
+    padding-left: 14rem;
     padding-right: 150px;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 h1 {
-    font-family: cabin;
+
+    font-family: "cabin";
     font-weight: 900;
     font-size: 40px;
     padding-left: 1rem;
@@ -33,14 +37,21 @@ h1 {
 }
 
 
+#carouselExampleIndicators {
+    padding-left: 13rem;
+}
+
 .car1 {
-    margin-left: 150px;
-    margin-right: 150px;
+
+    margin-left: 2rem;
+    margin-right: 2rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 5rem;
+
 }
 
 .carousel-indicators {
+
     position: absolute;
     right: 0;
     bottom: -60px;
@@ -49,9 +60,7 @@ h1 {
     display: flex;
     justify-content: center;
     padding: 0;
-    margin-right: 15%;
-    margin-bottom: 1rem;
-    margin-left: 15%;
+
 }
 
 .carousel-indicators [data-bs-target] {
@@ -59,10 +68,6 @@ h1 {
     flex: 0 1 auto;
     width: 15px;
     height: 15px;
-    padding: 0;
-    margin-right: 3px;
-    margin-left: 3px;
-    text-indent: -999px;
     cursor: pointer;
     background-color: #373A3C;
     background-clip: padding-box;
@@ -76,4 +81,8 @@ h1 {
 
 .carousel-indicators .active {
     opacity: 1;
+}
+
+.col-3 {
+    width: 21%;
 }
