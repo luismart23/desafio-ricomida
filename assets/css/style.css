@@ -3,51 +3,53 @@ body {
     font-family: 'Lobster', sans-serif;
 }
 
-.titulo {
 
+
+.titulo {
+    color: #ffffff;
     font-size: 37px;
 
 }
 
 .opciones {
-
+    color: #ffffff;
     font-family: "cabin";
     font-size: 16px;
 
 }
 
-
-
-
 .imagen1 {
+    padding-top: 2rem;
     width: 482px;
     height: 384px;
 }
 
-h1 {
-
+.titulo1 {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
     font-family: "cabin";
     font-weight: 900;
     font-size: 40px;
-
 }
 
-
-#carouselExampleIndicators {
-    padding-left: 13rem;
+.subtitulo1 {
+    padding-top: 2rem;
+    font-family: "cabin";
+    font-weight: 700;
+    font-size: 20px;
 }
 
-.car1 {
+.botones1 {
+    font-family: "cabin";
+    font-weight: 700;
+    font-size: 16px;
+}
 
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 5rem;
-
+.carrusel-1 {
+    padding-top: 4rem;
 }
 
 .carousel-indicators {
-
     position: absolute;
     right: 0;
     bottom: -60px;
@@ -55,30 +57,28 @@ h1 {
     z-index: 2;
     display: flex;
     justify-content: center;
-
-
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
 }
 
 .carousel-indicators [data-bs-target] {
-    box-sizing: content-box;
-    flex: 0 1 auto;
-    width: 15px;
-    height: 15px;
-    cursor: pointer;
-    background-color: #373A3C;
-    background-clip: padding-box;
-    border: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    opacity: .5;
-    transition: opacity .6s ease;
+    background-color: #373a3c;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
 }
 
-.carousel-indicators .active {
-    opacity: 1;
+h2 {
+    text-decoration-line: underline;
+    font-family: "cabin";
+    font-size: 20px;
+    color: #373a3c;
 }
 
-.col-3 {
-    width: 21%;
+.ingredientes {
+    font-family: "cabin";
+    font-size: 20px;
+    color: #373a3c;
 }

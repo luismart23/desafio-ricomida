@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Luis Martínez" />
     <link rel="shortcut icon" href="assets/img/favicon_ricomida.png" type="image/x-icon">
     <title>Ricomida</title>
@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&family=Lobster&display=swap"
@@ -23,36 +24,46 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-            <div class="container">
-                <a class="titulo navbar-brand" href="#">Ricomida</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="opciones collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav ms-auto">
-                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                        <a class="nav-link" href="#">Recetas</a>
-                        <a class="nav-link" href="#">Nosotros</a>
-                        <a class="nav-link" href="#">Contacto</a>
-                    </div>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container">
+            <a class="titulo navbar-brand" href="#">Ricomida</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="opciones collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" href="#">Recetas</a>
+                    <a class="nav-link" href="#">Nosotros</a>
+                    <a class="nav-link" href="#">Contacto</a>
                 </div>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <main class="conteiner">
-        <section class="hero1 d-flex ">
 
-            <img class="imagen1" src="assets/img/principal.jpg" alt="img_principal">
-            <h1 class="flex">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
+    <div class="container">
+        <div class="row">
+            <div class="imagen1 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <img class="img-fluid" src="assets/img/principal.jpg" alt="imagen-principal" />
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <h1 class="titulo1">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
+                <hr class="linea1" color="#000000" size="5px" />
+                <p class="subtitulo1">110 MIN / 6 A 8 PORCIONES</p>
+                <div class="botones1">
+                    <button type="button" class="btn btn-outline-dark m-2">Enviar por correo</button>
+                    <button type="button" class="btn btn-outline-dark m-2">Añadir a favoritos</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        </section>
 
-        <section id="carouselExampleIndicators" class="carousel slide">
+    <section class="carrusel-1 container d-none d-sm-block">
+        <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -63,32 +74,32 @@
                 <article class="carousel-item active">
                     <div class="row">
                         <div class="col-3">
-                            <img src="assets/img/slider-1.png" class="d-block w-100" alt="slider-1">
+                            <img src="assets/img/slider-1.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="col-3">
-                            <img src="assets/img/slider-2.png" class="d-block w-100" alt="slider-2">
+                            <img src="assets/img/slider-2.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="col-3">
-                            <img src="assets/img/slider-3.png" class="d-block w-100" alt="slider-3">
+                            <img src="assets/img/slider-3.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="col-3">
-                            <img src="assets/img/slider-4.png" class="d-block w-100" alt="slider-4">
+                            <img src="assets/img/slider-4.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
                 </article>
                 <article class="carousel-item">
                     <div class="row">
                         <div class="col-3">
-                            <img src="assets/img/slider-5.png" class="d-block w-100" alt="slider-5">
+                            <img src="assets/img/slider-5.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="col-3">
-                            <img src="assets/img/slider-6.png" class="d-block w-100" alt="slider-6">
+                            <img src="assets/img/slider-6.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="col-3">
-                            <img src="assets/img/slider-7.png" class="d-block w-100" alt="slider-7">
+                            <img src="assets/img/slider-7.png" class="d-block w-100" alt="...">
                         </div>
                         <div class="col-3">
-                            <img src="assets/img/slider-8.png" class="d-block w-100" alt="slider-8">
+                            <img src="assets/img/slider-8.png" class="d-block w-100" alt="...">
                         </div>
                     </div>
                 </article>
@@ -103,16 +114,115 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+        </div>
+    </section>
+    <br>
+    <br>
+    <hr class="container" color="#000000" size="5px" />
 
-        </section>
+    <section class="container">
 
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-            integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-        <script src="assets/js/app.js"></script>
+        <div class="row">
+            <div class="d-flex">
+                <div class="col">
+                    <h2>INGREDIENTES</h2>
+                    <br>
+                    <p class="ingredientes">Masa <br>
+                        <br>20 gr de levadura seca instantánea
+                        <br>1 cucharadita de azúcar
+                        <br>500 ml agua tibia
+                        <br>100 ml aceite vegetal
+                        <br>4 cucharadas de aceite de oliva
+                        <br>65 gr harina de maíz fina (chuchoca)
+                        <br>2 cucharaditas de sal
+                        <br>625 gr harina
+                        Salsa
+                        <br>
+                        <br>5cucharadas de aceite de oliva
+                        <br>½ cebolla picada en cubos finos
+                        <br>2 cucharaditas de sal
+                        <br>3 cucharadas de Orégano Gourmet
+                        <br>1 ½ cucharadas de Albahaca Gourmet
+                        <br>2 tarro de tomates en cubos al natural
+                        <br>2 cucharaditas de azúcar
+                        <br>Relleno
+                        <br>
+                        <br>½ cebolla, en cubos
+                        <br>500 gr hojas de espinacas picadas
+                        <br>400 gr de champiñones, laminados
+                        <br>300 gr de queso mozarella.
+                        <br>4 cucharadas queso parmesano
+                    </p>
+                </div>
+                <div class="col">
+                    <h2>PREPARACIÓN</h2>
+                    <br>
+                    <p class="ingredientes">1. Para la masa, disolver la levadura y el azúcar en agua tibia
+                        en un bol grande. Dejar reposar 2 minutos.
+                        Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar
+                        el
+                        resto de harina, la
+                        cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o
+                        hasta
+                        tener una masa lisa y
+                        elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se
+                        pegue) .
+                        Poner la masa en un bol
+                        aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su
+                        volumen (leudar). Golpear la
+                        masa para que baje y luego dejar leudar por 40 minutos adicionales.
+                        <br>
+                        <br>2. Mientras tanto
+                        preparar
+                        la salsa: Calentar 4
+                        cucharadas de aceite en una olla a fuego medio. Agregar la cebolla, Orégano Gourmet,
+                        Albahaca
+                        Gourmet, sal y cocinar
+                        hasta que la cebolla esté dorada. Agregar el ajo y cocinar por 30 segundos. Agregar los
+                        tomates
+                        junto al jugo del tarro,
+                        a la mezcla de cebolla. Agregar el azúcar y cocinar hasta que la mezcla se haya reducido y
+                        espesado, como 30 minutos.
+                        Sazonar con sal y pimienta a gusto. Reservar.
+                        <br>
+                        <br> 3. Relleno: Cocinar las chalotas en el aceite
+                        de
+                        oliva hasta que estén
+                        transparentes. Agregar los champiñones y las espinacas, cocinar hasta que estén cocidos y se
+                        haya evaporado todo el
+                        líquido que hayan votado los vegetales. Reservar.
+                        <br>4. Calentar el horno a 220C.
+                        <br>
+                        <br>5. Una vez
+                        que la
+                        masa haya reposado,
+                        dividirla en dos bolas. Estirar cada masa para cubrir dos moldes (desmontables) de 26 cm,
+                        hacer
+                        un borde de 5 cm con la
+                        masa. Dividir el relleno entre las dos pizza, tapar con el queso mozarella, luego terminar
+                        con
+                        la salsa de tomates y
+                        finalmente espolvorear el queso rallado.
+                        <br>
+                        <br>6. Hornear por 35 a 40 minutos o hasta que el
+                        relleno
+                        esté caliente y la base
+                        esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.
+                    </p>
+                </div>
+            </div>
+        </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-            crossorigin="anonymous"></script>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
     </main>
 </body>
