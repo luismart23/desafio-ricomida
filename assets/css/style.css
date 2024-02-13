@@ -1,0 +1,79 @@
+body {
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Lobster', sans-serif;
+}
+
+.titulo {
+    font-size: 37px;
+    font-display: center;
+}
+
+.opciones {
+    font-family: cabin;
+    font-size: 16px;
+    font-display: center;
+}
+
+
+.hero1 {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+h1 {
+    font-family: cabin;
+    font-weight: 900;
+    font-size: 40px;
+    padding-left: 1rem;
+    padding-right: 17rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+
+.car1 {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -60px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #373A3C;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
