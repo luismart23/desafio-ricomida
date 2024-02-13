@@ -4,25 +4,24 @@ body {
 }
 
 .titulo {
-    padding-left: 7.5rem;
+
     font-size: 37px;
-    font-display: center;
+
 }
 
 .opciones {
-    padding-right: 7rem;
+
     font-family: "cabin";
     font-size: 16px;
-    font-display: center;
+
 }
 
 
-.hero1 {
-    background-position: center;
-    padding-left: 14rem;
-    padding-right: 150px;
-    padding-top: 2rem;
-    padding-bottom: 3rem;
+
+
+.imagen1 {
+    width: 482px;
+    height: 384px;
 }
 
 h1 {
@@ -30,10 +29,7 @@ h1 {
     font-family: "cabin";
     font-weight: 900;
     font-size: 40px;
-    padding-left: 1rem;
-    padding-right: 17rem;
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+
 }
 
 
@@ -59,7 +55,7 @@ h1 {
     z-index: 2;
     display: flex;
     justify-content: center;
-    padding: 0;
+
 
 }
 
