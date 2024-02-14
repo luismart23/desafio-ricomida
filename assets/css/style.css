@@ -3,19 +3,16 @@ body {
     font-family: 'Lobster', sans-serif;
 }
 
-
-
 .titulo {
     color: #ffffff;
     font-size: 37px;
 
 }
 
-.opciones {
+.opciones1 {
     color: #ffffff;
     font-family: "cabin";
     font-size: 16px;
-
 }
 
 .imagen1 {
@@ -30,6 +27,7 @@ body {
     font-family: "cabin";
     font-weight: 900;
     font-size: 40px;
+    color: #373A3C;
 }
 
 .subtitulo1 {
@@ -81,4 +79,65 @@ h2 {
     font-family: "cabin";
     font-size: 20px;
     color: #373a3c;
+}
+
+.recetas1 {
+    font-family: "cabin";
+    font-weight: 900;
+    font-size: 40px;
+    color: #373A3C;
+    padding-bottom: 2rem;
+}
+
+h5 {
+    font-family: "cabin";
+    font-weight: 900;
+    font-size: 23px;
+    color: #373A3C;
+}
+
+p {
+    font-family: "cabin";
+    font-weight: 500;
+    font-size: 16px;
+    color: #373A3C;
+}
+
+.bg-color1 {
+    background-color: #DC3545;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.recetas2 {
+    font-family: "cabin";
+    font-weight: 900;
+    font-size: 40px;
+    color: #ffffff;
+    padding-bottom: 1rem;
+}
+
+h4 {
+    font-family: "lobster";
+    font-weight: 500;
+    font-size: 30px;
+    color: #ffffff;
+    padding-bottom: 2rem;
+}
+
+.boton2 {
+    font-family: "cabin";
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.bg-color3 {
+    background-color: #373A3C;
+    color: #ffffff;
+    font-size: 37px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }

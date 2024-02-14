@@ -25,14 +25,14 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <nav class="bg-color3 navbar navbar-expand-sm bg-dark navbar-dark">
         <div class="container">
             <a class="titulo navbar-brand" href="#">Ricomida</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="opciones collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="opciones1 collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
                     <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     <a class="nav-link" href="#">Recetas</a>
@@ -54,8 +54,12 @@
                 <hr class="linea1" color="#000000" size="5px" />
                 <p class="subtitulo1">110 MIN / 6 A 8 PORCIONES</p>
                 <div class="botones1">
-                    <button type="button" class="btn btn-outline-dark m-2">Enviar por correo</button>
-                    <button type="button" class="btn btn-outline-dark m-2">Añadir a favoritos</button>
+                    <button id="boton1" type="button" class="btn btn-outline-dark m-2 muted" data-bs-toggle="tooltip"
+                        data-bs-title="Presiona para enviar tu correo">Enviar por correo</button>
+
+                    <button id="boton2" type="button" class="btn btn-outline-dark m-2 muted" data-bs-toggle="tooltip"
+                        data-bs-title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
+
                 </div>
             </div>
         </div>
@@ -74,32 +78,32 @@
                 <article class="carousel-item active">
                     <div class="row">
                         <div class="col-3">
-                            <img src="assets/img/slider-1.png" class="d-block w-100" alt="...">
+                            <img src="assets/img/slider-1.png" class="d-block w-100" alt="slider-1">
                         </div>
                         <div class="col-3">
-                            <img src="assets/img/slider-2.png" class="d-block w-100" alt="...">
+                            <img src="assets/img/slider-2.png" class="d-block w-100" alt="slider-2">
                         </div>
                         <div class="col-3">
-                            <img src="assets/img/slider-3.png" class="d-block w-100" alt="...">
+                            <img src="assets/img/slider-3.png" class="d-block w-100" alt="slider-3">
                         </div>
                         <div class="col-3">
-                            <img src="assets/img/slider-4.png" class="d-block w-100" alt="...">
+                            <img src="assets/img/slider-4.png" class="d-block w-100" alt="slider-4">
                         </div>
                     </div>
                 </article>
                 <article class="carousel-item">
                     <div class="row">
                         <div class="col-3">
-                            <img src="assets/img/slider-5.png" class="d-block w-100" alt="...">
+                            <img src="assets/img/slider-5.png" class="d-block w-100" alt="slider-5">
                         </div>
                         <div class="col-3">
-                            <img src="assets/img/slider-6.png" class="d-block w-100" alt="...">
+                            <img src="assets/img/slider-6.png" class="d-block w-100" alt="slider-6">
                         </div>
                         <div class="col-3">
-                            <img src="assets/img/slider-7.png" class="d-block w-100" alt="...">
+                            <img src="assets/img/slider-7.png" class="d-block w-100" alt="slider-7">
                         </div>
                         <div class="col-3">
-                            <img src="assets/img/slider-8.png" class="d-block w-100" alt="...">
+                            <img src="assets/img/slider-8.png" class="d-block w-100" alt="slider-8">
                         </div>
                     </div>
                 </article>
@@ -208,18 +212,67 @@
                     esté esponjosa y dorada. Esperar unos minutos antes de desmoldar.
                 </p>
             </div>
-        </div>
-
+        </div><br>
     </section>
+    <hr class="container" color="#000000" size="5px" />
+
+    <section class="container">
+        <h3 class="recetas1 text-center">RECETAS RELACIONADAS</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+            <div class="col">
+                <div id="recipe1" class="card h-100">
+                    <img src="assets/img/recipe-card-1.png" class="card-img-top" alt="recipe-card-1">
+                    <div class="card-body">
+                        <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
+                        <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est
+                            vulputate nostra, blandit erat luctus faucibus
+                            orci.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div id="recipe2" class="card h-100">
+                    <img src="assets/img/recipe-card-2.png" class="card-img-top" alt="recipe-card-2">
+                    <div class="card-body">
+                        <h5 class="card-title">TIRAMISÚ</h5>
+                        <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus
+                            lacinia sed faucibus mauris, taciti scelerisque
+                            nulla ornare consequat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div id="recipe3" class="card h-100">
+                    <img src="assets/img/recipe-card-3.png" class="card-img-top" alt="recipe-card-3">
+                    <div class="card-body">
+                        <h5 class="card-title">PLATEADA</h5>
+                        <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet
+                            ac eleifend risus, urna auctor inceptos
+                            mattis dapibus.</p>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+    </section>
+
+    <footer>
+        <div class="bg-color1 text-center">
+            <h3 class="recetas2 text-center">SUSCRÍBETE EN NUESTRO NEWSLETTER</h3>
+            <h4>y obtén las mejores recetas que tenemos en Ricomida</h4>
+            </h4>
+            <button type="button" class="boton2 btn btn-outline-light m-2">Empezar</button>
+        </div>
+        <div class="bg-color3 text-center">Ricomida</div>
+    </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="assets/js/app.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
 
     </main>
 </body>
